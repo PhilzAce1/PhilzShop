@@ -1,0 +1,33 @@
+{
+  "name": "philzshop",
+  "version": "1.0.0",
+  "description": "E-commerce, Node, Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilzAce1/PhilzShop.git"
+  },
+  "keywords": [
+    "Node",
+    "ecommerce"
+  ],
+  "author": "Akuagwu Philemon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhilzAce1/PhilzShop/issues"
+  },
+  "homepage": "https://github.com/PhilzAce1/PhilzShop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.6.12",
+    "morgan": "^1.9.1"
+  }
+}
